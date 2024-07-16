@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../images/background-login.jpg);
+    background-size: 100%;
+}
+
+#nav {
+    height: 30px;
+}
+
+.button {
+    padding-top: 0px;
+}
+
+.box {
+    margin-top: 3px;
+}
+
+.container-s input#search {
+    height: 24px;
+}
+
+.container-s button.icon {
+    height: 18px;
+    width: 30px;
+    margin-left: -34px;
+}
+
+.title-box {
+    margin: 0 auto 0;
+    width: 900px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.chuyen-title {
+    height: 220px;
+    transition: all 1s ease;
+}
+
+.title-login {
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.box-login {
+    overflow: hidden;
+    width: 900px;
+    height: 500px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #222222;
+    background-image: url(../images/city.jpg);
+}
+
+.in-to-up{
+    width: 1485px;
+    transition: all 1s ease-out;
+}
+
+.login {
+    width: 585px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    border-radius: 15px 0 0 15px;
+}
+
+.login img {
+    height: 80px;
+    margin: 10px 0 10px 150px;
+}
+
+.login form p {
+    font-weight: bold;
+    color: #444444;
+    margin-left: 140px;
+    margin-bottom: 5px;
+    font-size: 13pt;    
+    
+    
+}
+
+#username, #target_trainee, #phone_trainee, #address_trainee, #sex_trainee, #id_trainee, #ho, #ten, #email, #pass, #c-pass, #name_trainee, #password{
+    font-size: 12pt;
+    width: 300px;
+    height: 40px;
+    margin-left: 140px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    outline: none;
+    padding-left: 10px;
+}
+
+#username {
+    margin-top: 20px;
+}
+
+#target_trainee, #password {
+    margin-top: 20px ;
+}
+
+.login .remember {
+    font-size: 10pt;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.forgot-pass {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+.button-login, .button-signup {
+    display: inline-block;
+    padding: 10px 105px;
+    margin-left: 140px;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: #faa731;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #a96000;
+    outline: none;
+}
+
+.button-login:active, .button-signup:active {
+    border-bottom: none;
+    border-top: 3px solid #a96000;
+}
+
+hr {
+    display: inline-block;
+    width: 310px;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.login-with {
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.login-with span {
+    font-size: 10pt;
+}
+
+.login-fb, .login-gg {
+    padding: 15px 35px 5px;
+    border-radius: 30px;
+    color: white;
+}
+
+.login-fb {
+    padding: 15px 40px 5px;
+    background-color: #4267B2;
+}
+
+.login-gg {
+    background-color: #DB4437;
+}
+
+.login-fb:hover {
+    background-color: #2F4B82;
+}
+
+.login-gg:hover {
+    background-color: #AE3A2F;    
+}
+
+.go-register, .go-login {
+    font-size: 12pt;
+    margin-top: 35px;
+    margin-left: 140px;
+}
+
+.go-register a, .go-login a {
+    font-weight: bold;
+    color: #31aefa;
+}
+
+.background {
+    width: 315px;
+    height: 500px;
+    float: left;
+}
+
+.background p {
+    color: #444444;
+    display: block;
+}
+
+.credit {
+    color: white;
+    font-size: 12pt;
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.credit:hover {
+    color: red;
+}
+
+#p1 {
+    font-family: 'Lobster', cursive;
+    font-size: 35pt;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#p2 {
+    font-family: 'Lobster', cursive;
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register {
+    width: 585px;
+    height: 500px;
+    background-color: white;
+    float:left;
+}
+
+#p-dangky {
+    font-weight: bold;
+    color: #444444;
+    margin: 25px 0 0px 40px;
+    font-size: 13pt;
+}
+
+.div-text {
+    float: left;
+}
+
+.div-text p {
+    margin: 25px 0 55px 40px;
+    font-size: 12pt;
+    
+}
+
+.div-form {
+    width: 400px;
+    float: left;
+}
+
+#ho, #ten {
+    width: 300px;
+    margin-left: inherit;
+}
+
+#ho, #email, #pass, #c-pass {
+    margin: 10px 0 20px 10px;
+}
+
+#pass {
+    margin-bottom: 5px;
+}
+
+#c-pass {
+    margin-top: 15px;
+}
+
+.p-pass {
+    margin-left: 220px;
+    font-style: italic;
+    font-size: 9pt;
+}
+
+.register span {
+    font-size: 10pt;
+}
+
+#privacy-policy {
+    font-weight: bold;
+    color: blue;
+}
+
+#privacy-policy:hover {
+    text-decoration: underline;
+}
+
+.button-signup {
+    margin-top: 10px;
+    margin-left: 165px;
+    width: 100px;
+}
+
+.go-login {
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.div-xacnhan {
+    width: 550px;
+    height: 100px;
+    margin-top: 250px;
+}
+
+.div-xacnhan input {
+    margin-left: 150px;
+}
+
+
+

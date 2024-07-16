@@ -1,0 +1,222 @@
+.clock_time{
+	background: #f0ad4e;
+	width: auto;
+	z-index: 10000;
+	border-radius: 5px;
+	padding: 10px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 20px;
+}
+.clock_div{
+	color: #fff;
+	display: inline-block;
+}
+.box_clock{
+	text-align: center;
+}
+.box_question{
+display: inline-block;
+}
+.box_big_question{
+	font-size: 20px;
+}
+#qsid{
+	display: inline-block;
+	padding: 10px;
+	border-radius: 99%;
+	height: 35px;
+	width: 35px;
+	margin-right: 15px;
+}
+.time_do_test{
+	display: inline-block;
+	color: white;
+}
+.cover {
+    border-bottom: 3px solid #87CEFA;
+}
+.time_do_writing{
+	color: white;
+	width: 115px;
+}
+.clock_manager{
+	background: #87CEFA;
+	width: auto;
+	border-radius: 10px;
+	padding: 10px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: -10px;
+	margin-left: 75%;
+}
+.clock_title{
+	background: #87CEFA;
+	width: auto;
+	border-radius: 5px;
+	padding: 10px;
+	height: 55px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: -10px;
+	font-size: 25px;
+	color: white;
+	margin-left: 40%;
+}
+.clock_div_time{
+	float: right;
+}
+.w_task1, .w_task2{
+	margin-top: 15px;
+	font-size: 17px;
+	color: #87CEFA;
+}
+
+.title_task1, .title_task2{
+	margin-top: 15px;
+}
+
+.content_task1, .content_task2{
+	border-style: solid;
+    border-color: black;
+    text-align: justify;
+    margin-top: 15px;
+    padding: 7px;
+}
+.image{
+	width: 100%;
+	margin-top: 30px;
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer_task1{
+	margin-top: 15px;
+}
+.footer_task2{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.tab-wrapper {
+    width: auto;
+    border-bottom: solid #87CEFA;
+}
+.tab-wrapper ul{
+    overflow: hidden;
+    background: #Fff;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -3px;
+}
+.tab-wrapper ul li{
+    float: left;
+    list-style: none;
+    padding: 10px 20px;
+    background: #87CEFA;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 5px;
+}
+.tab-wrapper li{
+    border-left: 3px solid #87CEFA;
+    border-right: 3px solid #87CEFA;
+    border-top: 3px solid #87CEFA;
+}
+.tab-wrapper ul li.active{
+    background: #Fff;
+}
+.tab-wrapper ul li.active a{
+    color: #87CEFA;
+}
+.tab-wrapper ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tab-content {
+    padding: 20px;
+    border-left: solid #87CEFA;
+    border-right: solid #87CEFA;
+    border-top: solid #87CEFA;
+}
+.tab-item{
+    display: none;
+}
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; 
+}
+.do_writing{
+	text-align: justify;
+	/*font-size: 17px;*/
+	width: 100%;
+}
+.button_submit{
+	margin-top: 12px;
+	/*margin-left: 40%;*/
+	width: 100%;
+	font-size: 18px !important; 
+}
+
+textarea::-webkit-input-placeholder { 
+    color: gray !important;
+    font-style: italic;
+}
+.cover_nametest{
+	padding: 0px;
+}
+
+.history_test{
+ 	font-size: 20px;
+ 	color: #87CEFA;
+}
+.cover_info{
+ 	padding: 0px !important;
+}
+.overview_test{
+	border: 3px solid #87CEFA;
+	padding: 15px;
+}
+.cover_header{
+	line-height: 25px;
+}
+.answer > input {
+    height: 17px;
+    width: 17px;
+}
+.cover_question{
+	font-size: 16px;
+}
+.count_character1{
+	border-style: solid;
+    border-color: #87CEFA; 
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    float: right;
+    padding: 7px;
+    font-size: 17px; 
+    text-align: center;
+}
+.count_character2{
+	border-style: solid;
+    border-color: #87CEFA; 
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    float: right;
+    padding: 7px;
+    font-size: 17px; 
+    text-align: center;
+}
+

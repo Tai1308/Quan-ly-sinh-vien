@@ -1,0 +1,367 @@
+.leftbar, .rightbar {
+    max-height: 100vh;
+    border-right: 1px solid #E5E5E9;
+}
+
+.userbar, .titlebar {
+    height: 70px;
+    border-bottom: 1px solid #E5E5E9;
+}
+
+.belowuserbar {
+    height: calc(100vh - 70px);
+}
+
+.avatar img {
+    width: 55px;
+    border-radius: 50%;
+    margin: 7px auto;
+}
+
+.userbar .username {
+    color: black;
+    text-decoration: none;
+}
+
+.userbar h6 {
+    margin-top: 5px;
+}
+
+.container-1{
+    width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+
+.container-1 input#search{
+    width: 100%;
+    height: 30px;
+    background: #EDEDED;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 30px;
+    border-radius: 25px;
+    outline: none;
+}
+
+ .container-1 .icon{
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    z-index: 1;
+    color: #63717f;
+    font-size: 11pt;
+    border: none;
+}
+
+.container-1 input#search:focus {
+    background: white;
+    border: 1px solid #fbc000;
+}
+
+.menubar {
+    background: #FBC000;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    height: 100%;
+}
+
+.menu-item, .menu-active {
+    height: 55px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu-active {
+    background-color: white;   
+}
+
+.menu-item a {
+    font-size: 20pt;
+    color: #ffeeb4;
+    margin: 5px auto;   
+}
+
+.menu-active a {
+    color: #fbc000;
+    font-size: 20pt;
+    margin: 5px auto;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 11pt;
+    color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+    background-color: #FBC000;
+}
+
+.menu-item a:hover {
+    color: white;
+}
+
+.listfriendbar {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+.filtermess a {
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;
+    font-weight: 500;
+    margin: 10px 10px 10px;
+}
+
+.filtermess a:hover {
+    color: #fbc000;
+}
+
+.yourfriend {
+    height: 70px;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.yourfriend img {
+    width: 55px;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: -10px;
+}
+
+.yourfriend .friendname {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.yourfriend .shownewestchat {
+    width: 100%;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 10pt;
+    color: #888888;
+}
+
+.yourfriend .fa-cog {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    color: #888888;
+    opacity: 0;
+}
+
+.yourfriend .statustime {
+    font-size: 10pt;
+    color: #888888;
+    position: absolute;
+    top: 12px;
+    right: 5px;
+}
+
+.friend-active {
+    background-color: #ffeaa7;
+}
+
+.yourfriend:hover {
+    background-color: #ececec;
+}
+
+.titlebar img {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.titlebar h5 {
+    margin-top: 10px;
+}
+
+.titlebar .statusactive {
+    font-size: 11pt;
+    color: #888888;
+    margin-top: -5px;
+}
+
+.functionchat .fas {
+    font-size: 15pt;
+    color: #fbc000;
+    margin-left: 13%;
+    margin-top: 30px;
+}
+
+.allmess {
+    height: calc(100vh - 140px);
+}
+
+.inputmess {
+    height: 70px;
+}
+
+.container-2 {
+    width: 100%;
+}
+
+textarea#chat {
+    width: 85%;
+    height: 35px;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    background: #EDEDED;
+    border: none;
+    font-size: 11pt;
+    float: left;
+    color: #63717f;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+textarea#chat:focus {
+    background: white;
+    border: 2px solid #fbc000;
+}
+
+.container-2 .fa-image {
+    position: absolute;
+    bottom: 33px;
+    right: 150px;
+    font-size: 17pt;
+    color: #63717f;
+}
+
+.container-2 .fa-grin-alt {
+    position: absolute;
+    bottom: 33px;
+    right: 110px;
+    font-size: 16pt;
+    color: #63717f;
+}
+
+
+.modal-footer {
+    background-color: #e4e4e4;
+}
+
+.modal-header img {
+    width: 200px;
+}
+
+#modalfeedback .modal-body #message-text {
+    height: 180px;
+}
+
+.modal-footer #btnok {
+    background-color: #fbc000;
+    border: 1px solid #fbc000;
+}
+
+.modal-footer #btnok:hover {
+    background-color: #e9b200;
+}
+
+.inputfile {
+    display: none;
+}
+
+.inputfile + label {
+    font-size: 12pt;
+    font-weight: 500;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #fbc000;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile + label:hover {
+    background-color: #bd9100;
+}
+
+.carousel-indicators li {
+    background-color: #d3d3d3;
+}
+
+.carousel-indicators .active {
+    background-color: #fbc000;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: #888888;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: #888888;
+}
+
+#logohome {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.div-welcome p {
+    text-align: center;
+}
+
+.mybtn {
+    background-color: #fbc000;
+}
+
+.mybtn:hover {
+    background-color: #e9b200;
+}
+
+#username,#ngaysinh, #email, #sdt, #current-password, #new-password, #comfirm-password {
+    width: 90%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#sex {
+    width: 30%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#modal-updateinfo .modal-body .row, #modal-doimatkhau .modal-body .row {
+    margin-top: 10px;
+}
+
+#modal-updateinfo img {
+    width: 100%;
+}
+
+#lb-loadanh {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    font-weight: 400;
+}
+
+#avatarOfFriend {
+    border-radius: 50%;
+}

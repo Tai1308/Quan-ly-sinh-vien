@@ -1,0 +1,220 @@
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.tab_focus:focus {
+    background: #87CEFA !important;
+    color: #fff !important;
+}
+
+.tab .nav-tabs{
+    border-bottom: 0 none;
+    background: transparent;
+}
+.tab .nav-tabs li a{
+    font-size: 16px;
+    color: #333;
+    background: transparent;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 30px;
+    position: relative;
+}
+.tab .nav-tabs li.active a{
+    border: 0 none !important;
+    background: #87CEFA !important;
+    color: #fff !important;
+}
+.tab .nav-tabs li.active a:after{
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -14px;
+    border: 7px solid transparent;
+    border-top: 7px solid #87CEFA;
+}
+.tab .tab-content{
+    width: 1024px;
+    padding: 12px;
+    font-size: 14px;
+    color: #5a5c5d;
+    line-height: 24px;
+    margin-top: 20px;
+    background: #fff;
+    border-bottom: 3px solid #87CEFA;
+}
+@media only screen and (max-width: 480px) {
+    .tab .nav-tabs li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tab .nav-tabs li a{
+        border: 1px solid #d3d3d3;
+    }
+    .tab .nav-tabs li.active a:after{
+        border:none;
+    }
+}
+.cover_course{
+    border-bottom: 3px solid #87CEFA;
+}
+.cover_header_course{
+    line-height: 25px;
+}
+.history_test_course{
+    font-size: 20px;
+    color: #87CEFA;
+}
+.cover_info_course{
+    padding: 0px !important;
+}
+.clock_title_course{
+    background: #87CEFA;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    height: 55px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+    color: white;
+    margin-left: 40%;
+}
+.time_do_test_course{
+    display: inline-block;
+    color: white;
+}
+.w_task1_course, .w_task2_course{
+    margin-top: 15px;
+    font-size: 17px;
+    color: #87CEFA;
+}
+.title_task1_course, .title_task2_course{
+    margin-top: 15px;
+}
+.content_task1_course, .content_task2_course{
+    border-style: solid;
+    border-color: black;
+    text-align: justify;
+    margin-top: 15px;
+    padding: 7px;
+}
+.image_course{
+    width: 100%;
+    margin-top: 30px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_task1_course{
+    margin-top: 15px;
+}
+.footer_task2_course{
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+.do_writing_course{
+    text-align: justify;
+    /*font-size: 17px;*/
+    width: 100%;
+}
+.tab-wrapper_course {
+    width: auto;
+    border-bottom: solid #87CEFA;
+}
+.tab-wrapper_course ul{
+    overflow: hidden;
+    background: #Fff;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -3px;
+}
+.tab-wrapper_course ul li{
+    float: left;
+    list-style: none;
+    padding: 10px 20px;
+    background: #87CEFA;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 5px;
+}
+.tab-wrapper_course li{
+    border-left: 3px solid #87CEFA;
+    border-right: 3px solid #87CEFA;
+    border-top: 3px solid #87CEFA;
+}
+.tab-wrapper_course ul li.active{
+    background: #Fff;
+}
+.tab-wrapper_course ul li.active a{
+    color: #87CEFA;
+}
+.tab-wrapper_course ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tab-content_course {
+    padding: 20px;
+    border-left: solid #87CEFA;
+    border-right: solid #87CEFA;
+    border-top: solid #87CEFA;
+}
+.tab-item_course{
+    display: none;
+}
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; 
+}
+.score_writing_course{
+    margin-top: 10px !important;
+    width: 21% !important;
+    float: right !important;
+    text-align: justify !important;
+    background-color:  #FEB77D !important;
+    border-color: #FEB77D !important;
+    font-size: 17px !important;
+    text-align: center !important;
+}
+.button_submit_course{
+    margin-top: 12px;
+    /*margin-left: 40%;*/
+    width: 100%;
+    font-size: 18px !important; 
+}
+.div_8765{
+    display: inline-block;
+    float: right;
+}
+.div_875{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+.dropdown-menu.extended.notification::-webkit-scrollbar {
+    width: 6px;
+    background-color: #Fff !important;
+} 
+.dropdown-menu.extended.notification::-webkit-scrollbar-thumb {
+    background-color: #FFD6B5;
+    border-radius: 20px;
+}
+.dropdown-menu.extended.notification::-webkit-scrollbar-track {
+    
+    background-color: #fff !important;
+}
+.dropdown-menu.extended.notification{
+    overflow-y: scroll;
+    height: 51vh;
+    padding-bottom: 15px;
+    box-shadow: 2px 4px 24px 0px #dcdcdc !important;
+}
